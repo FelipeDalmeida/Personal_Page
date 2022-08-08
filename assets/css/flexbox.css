@@ -1,0 +1,74 @@
+.sobre-mim-principal{
+	display: flex;
+	flex-direction: column;
+}
+
+.atuando{
+	 display: flex;
+    justify-content: center;
+}
+
+.formacao, .cursos, .projetos, .publicacoes{
+	display: flex;
+}
+
+.lista-form, .lista-cursos, .emp-exp, .lista-proj, .lista-publicacoes{
+	flex-grow: 1;
+	flex-basis: 50%;
+}
+
+.img-form{
+	display: flex;
+	flex-grow: 1;
+    justify-content: space-around;
+    flex-basis: 50%;
+
+}
+
+
+
+.cursos{
+	display: flex;
+}
+
+
+
+.img-cursos{
+	align-self: center;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+.experiencia{
+	display: flex;
+	flex-direction: column;
+}
+
+.empresa{
+	display: flex;
+	flex-grow: 1;
+}
+
+
+.img-exp{
+	flex-grow: 1;
+	display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+.img-proj, .img-publi{
+	display: flex;
+	flex-grow: 1;
+    justify-content: space-around;
+    flex-basis: 50%;
+    flex-direction: column;
+    align-items: center
+}
+
+.lattes{
+	display: flex;
+	flex-direction: column;
+}
